@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+
+/*--global--*/
+body{
+    overflow-y: fixed;
+}
+
+/*--header--*/
+
+header{
+    background-color: #262626;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+span{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: top;
+    padding: 20px 5px;
+}
+a{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+}
+.nabbar img{
+    float: left;
+}
+.navbar{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+.nav-menu{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding{
+    font-size:  2.4rem;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: #a80000;
+}
+.hamborgir{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+/*--content--*/
+.content{
+    background-color: #383838; 
+}
+.nocap{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top:21.5%;
+    left:50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+}
+.dialog1{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 37%;
+    left:50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.secret0{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 44%;
+    left:26.5%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    opacity: 0.01;
+    font-size: 3rem;
+}
+.dialog2{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 44%;
+    left:46%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.dialog3{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 51%;
+    left:44.5%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.secret1{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 58%;
+    left:26.5%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    opacity: 0.01;
+    font-size: 3rem;
+}
+.dialog4{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 58%;
+    left:52%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+#content{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/3521073.jpg);
+    background-position: center;
+    filter: brightness(40%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    width: 80%;
+    top: 8%;
+    left:50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    
+    top: 75%;
+    left:50%;
+    border-radius: 10px;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    padding: 12px 34px;
+    font-size: 3rem;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #a80000;
+    border: 5px solid #a80000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*--categories--*/
+.c1{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    right: 49%;
+}
+.c2{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+     right: 5%;
+}
+.c1 video{
+    position: absolute;
+    left: 1.3%;
+    top: 4.3%;
+}
+.c2 video{
+    position: absolute;
+    right: 1.3%;
+    top: 4.3%;
+}
+.categories{
+    color: white;
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.categories-col{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 6%;
+    margin-right: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background: #262626;
+    padding: 25px;
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin: 10ps 0;
+}
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 12px;
+}
+#paywall{
+    opacity: 1;
+}
+.paywall{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 6%;
+    margin-right: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background: #262626;
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    top:0%;
+}
+#paywall2{
+    opacity: 1;
+}
+.paywall2{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 6%;
+    margin-right: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background: #262626;
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    top:0%;
+}
+.paywall h1{
+    font-size: 4rem;
+    margin-top: 130px;
+}
+.paywall img{
+    width: 45px;
+    padding: 3px;
+}
+.paywall button{
+    top: 60%;
+    left:40%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    padding: 12px 34px;
+    font-size: 3rem;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.paywall button:hover{
+    background-color: #a80000;
+    border: 5px solid #a80000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.paywall2 button:hover{
+    background-color: #a80000;
+    border: 5px solid #a80000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.paywall2 h1{
+    font-size: 4rem;
+    margin-top: 130px;
+}
+.paywall2 img{
+    width: 45px;
+    padding: 3px;
+}
+.paywall2 button{
+    top: 60%;
+    left:40%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    padding: 12px 34px;
+    font-size: 3rem;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.paywall2 button:hover{
+    background-color: #a80000;
+    border: 5px solid #a80000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*--footer--*/
+
+.footer{
+    color:white;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+   font-family: 'Barlow Condensed', sans-serif;
+}
+.footer p{
+    font-size: 1.3rem;
+}
+.icons .fa{
+    color: #a80000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 10px 0;
+
+}
+.fa-heart-o{
+    color: #f44446;
+    margin: 0 4px;
+}
+
+
+/*--Telefon--*/
+
+@media(max-width: 1440px){
+    .hamborgir{
+        display: block;
+    }
+    .hamborgir.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamborgir.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamborgir.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 98px;
+        gap 0;
+        flex-direction: column;
+        background: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        right: 0;
+    }
+    .title{
+        top:5%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+

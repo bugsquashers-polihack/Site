@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>LearnFill</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="icon" href="images/ban.png">
+    <link rel="stylesheet" href="style-self-care.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,600;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+    
+<body class="scrollable">
+    <header> 
+        <nav class="navbar">
+            
+            <!--logo-->
+            
+            <a href="index.html">
+                <img src="images/ban.png" width=60px>
+            <span class="nav-branding"> LearnFill</span>
+            </a>
+            
+            <!--buttons-->
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="explore.html" class="nav-link">EXPLORE</a></li>
+                <li><a href="store.html" class="nav-link">STORE</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+                <li><a href="login.html" class="nav-link">LOG IN</a></li>
+            </ul>
+            
+            <!--borgir-->
+            
+            <div class="hamborgir">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <!--content-->
+    
+    <section class="content">
+        <div  id="content"></div>
+        <h1 class="title">Self Care</h1>
+        <h2 class="nocap">Learn to love yourself!</h2>
+    </section>
+    
+    <!--features-->
+    
+   <section class="categories">
+        <div class="row">
+            <a class="c1">
+             <div class="categories-col">
+                <iframe width="720" height="405" src="https://www.youtube.com/embed/dBn0ETS6XDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                <div id="paywall" class="paywall">
+                    <h1 class="pw">Pay 1 <img src="images/ban.png"> to see this lesson</h1>
+                    <button onclick="changeStyle1()">Pay</button>
+                </div>
+            </a>
+            <a class="c2">
+            <div class="categories-col">
+                <iframe width="720" height="405" src="https://www.youtube.com/embed/Eupk56SG76M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="paywall2" class="paywall2">
+                    <h1 class="pw">Pay 1 <img src="images/ban.png"> to see this lesson</h1>
+                    <button onclick="changeStyle2()">Pay</button>
+                </div>
+            </a>
+            
+            </div>
+    </section>
+    
+            
+    <!--footer-->
+            
+    <section class="footer">
+        <p>Follow us on</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/people/Bug-Squashers/100087901100900/">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/bug.squashers/">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/Bug_Squashers">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by the Bug Squashers team</p>
+    </section>
+    
+    <!--scripts-->
+    
+    <script src="script.js"></script>
+    
+
+    <script>
+    function changeStyle1(){
+        var element = document.getElementById("paywall");
+        element.style.opacity = "0";
+        element.style.left="-100%";
+    }
+    </script>
+    <script>
+    function changeStyle2(){
+        var element = document.getElementById("paywall2");
+        element.style.opacity = "0";
+        element.style.left="+100%";
+    }
+    </script>
+    
+</body>
+    
+<html>
